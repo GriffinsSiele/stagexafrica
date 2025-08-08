@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           \"image\": \"https://stagexafrica.com/images/heroimg.jpg\",
           \"address\": {
             \"@type\": \"PostalAddress\",
-            \"streetAddress\": \"[Your Street], Kericho\",
+            \"streetAddress\": \"Londiani Junction, Kericho\",
             \"addressLocality\": \"Kericho\",
             \"addressCountry\": \"KE\"
           },
