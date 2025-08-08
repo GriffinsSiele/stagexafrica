@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "netlify build",
+    "postbuild": "npx netlify build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +21,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "netlify": "^23.1.2",
     "typescript": "^5"
   }
 }
