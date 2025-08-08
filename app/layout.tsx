@@ -51,7 +51,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             \"addressCountry\": \"KE\"
           },
           \"url\": \"https://stagexafrica.com\",
-          \"telephone\": \"[Your Phone Number]\",
+          \"telephone\": \"+254 715 196 074\",
           \"description\": \"Sawmill and furniture shop in Kericho, Kenya. Premium timber and woodworking solutions.\"
         }` }} />
       </head>
