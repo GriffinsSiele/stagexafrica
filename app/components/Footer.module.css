@@ -1,0 +1,339 @@
+/* Enhanced Footer Styles - Furniture Theme */
+.footer {
+  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Main Footer Content */
+.footerMain {
+  padding: 2.5rem 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Company Info */
+.companyInfo {
+  grid-column: 1;
+}
+
+.logoSection h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+  background: linear-gradient(135deg, #F5DEB3 0%, #DEB887 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Nunito', sans-serif;
+}
+
+.logoSection p {
+  font-size: 0.95rem;
+  color: #F5DEB3;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #F5DEB3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+}
+
+.contactItem i {
+  width: 16px;
+  color: #DEB887;
+  font-size: 1rem;
+}
+
+/* Quick Links, Services */
+.quickLinks,
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.quickLinks h4,
+.services h4,
+.socialSection h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #F5DEB3;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+}
+
+.quickLinks h4::after,
+.services h4::after,
+.socialSection h4::after {
+  content: '';
+  position: absolute;
+  bottom: -0.3rem;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background: linear-gradient(135deg, #CD853F 0%, #DEB887 100%);
+  border-radius: 1px;
+}
+
+.quickLinks ul,
+.services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quickLinks li,
+.services li {
+  margin-bottom: 0.6rem;
+}
+
+.quickLinks a,
+.services a {
+  color: #F5DEB3;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 0;
+}
+
+.quickLinks a::before,
+.services a::before {
+  content: '→';
+  position: absolute;
+  left: -0.8rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+  color: #DEB887;
+  font-size: 0.8rem;
+}
+
+.quickLinks a:hover,
+.services a:hover {
+  color: #DEB887;
+  padding-left: 0.8rem;
+}
+
+.quickLinks a:hover::before,
+.services a:hover::before {
+  opacity: 1;
+}
+
+/* Social Media */
+.socialSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #F5DEB3;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: 'Nunito', sans-serif;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(245, 222, 179, 0.2);
+}
+
+.socialLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  color: #DEB887;
+}
+
+.socialLink i {
+  font-size: 1.1rem;
+}
+
+/* Footer Bottom */
+.footerBottom {
+  border-top: 1px solid rgba(245, 222, 179, 0.2);
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright p {
+  color: #F5DEB3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.85rem;
+}
+
+.copyright a {
+  color: #DEB887;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.copyright a:hover {
+  color: #F5DEB3;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.legalLinks a {
+  color: #F5DEB3;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-family: 'Nunito', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.legalLinks a:hover {
+  color: #DEB887;
+}
+
+/* Decorative Elements */
+.footerDecoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.woodGrain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #DEB887, transparent);
+  opacity: 0.3;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footerContent {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .companyInfo {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerMain {
+    padding: 2rem 0 1rem;
+  }
+
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .legalLinks {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoSection h3 {
+    font-size: 1.8rem;
+  }
+
+  .logoSection p {
+    font-size: 0.9rem;
+  }
+
+  .contactItem {
+    font-size: 0.85rem;
+  }
+
+  .socialLink {
+    width: 35px;
+    height: 35px;
+  }
+
+  .socialLink i {
+    font-size: 1rem;
+  }
+}
+
+/* Hover Effects */
+.companyInfo:hover,
+.quickLinks:hover,
+.services:hover,
+.socialSection:hover {
+  transform: translateY(-1px);
+  transition: transform 0.3s ease;
+}
+
+.socialLink:focus,
+.quickLinks a:focus,
+.services a:focus {
+  outline: 2px solid #DEB887;
+  outline-offset: 2px;
+}
