@@ -320,12 +320,12 @@
 }
 
 .popularCard {
-  background: white;
+  /* background: white; */
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 25px rgba(139, 69, 19, 0.1);
+  /* box-shadow: 0 8px 25px rgba(139, 69, 19, 0.1); */
   transition: all 0.3s ease;
-  border: 1px solid rgba(210, 180, 140, 0.2);
+  /* border: 1px solid rgba(210, 180, 140, 0.2); */
 }
 
 .popularCard:hover {
