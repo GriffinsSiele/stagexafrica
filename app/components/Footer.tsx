@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
               <div className={styles.contactItem}>
                 <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                <span>+254 715 196 074</span>
+                <span>+254 702 648 366</span>
               </div>
               <div className={styles.contactItem}>
                 <i className="fa-solid fa-envelope" aria-hidden="true"></i>
@@ -65,7 +65,7 @@ export default function Footer() {
               <a href="https://vm.tiktok.com/ZMkQpGfSf/" aria-label="TikTok" className={styles.socialLink}>
                 <i className="fa-brands fa-tiktok" aria-hidden="true"></i>
               </a>
-              <a href="https://wa.me/254715196074" aria-label="WhatsApp" className={styles.socialLink}>
+              <a href="https://wa.me/254702648366" aria-label="WhatsApp" className={styles.socialLink}>
                 <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
               </a>
             </div>
