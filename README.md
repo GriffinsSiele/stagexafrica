@@ -9,7 +9,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[🌐 Live Website](https://stagexafrica.com/)
+[🌐 Live Website](https://stagexafrica.vercel.app/)
 
 </div>
 
