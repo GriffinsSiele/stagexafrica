@@ -75,7 +75,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className={styles.footerBottom}>
           <div className={styles.copyright}>
-            <p>© 2025 StagexAfrica. All rights reserved. Designed with ❤️ by <a href="https://griffinsngeno.vercel.app/">Griffins Ngeno</a></p>
+            <p>© 2025 StagexAfrica. All rights reserved.</p>
           </div>
           <div className={styles.legalLinks}>
             <a href="#">Terms & Conditions</a>

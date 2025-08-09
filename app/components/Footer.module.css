@@ -200,7 +200,7 @@
   border-top: 1px solid rgba(245, 222, 179, 0.2);
   padding-top: 1.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
@@ -212,12 +212,6 @@
   font-size: 0.85rem;
 }
 
-.copyright a {
-  color: #DEB887;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
 
 .copyright a:hover {
   color: #F5DEB3;
@@ -227,6 +221,8 @@
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
 }
 
 .legalLinks a {
@@ -235,6 +231,8 @@
   font-size: 0.85rem;
   font-family: 'Nunito', sans-serif;
   transition: color 0.3s ease;
+    justify-content: center;
+  align-items: center;
 }
 
 .legalLinks a:hover {
