@@ -1,4 +1,4 @@
-# 🌲 Stagex Africa Limited - Premium Timber & Woodworking Solutions
+# 🌲 Stagex Africa Limited
 
 <div align="center">
 
