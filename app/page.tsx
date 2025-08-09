@@ -102,7 +102,7 @@ export default function Home() {
         <div className={styles.popularGrid}>
           {[1,2,3,4,5,6].map((num, idx) => (
             <div className={styles.popularCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={idx * 200} key={num}>
-              <Image src={`/images/stageyafundi${num}.jpg`} alt="Popular Product" width={300} height={250} />
+              <Image src={`/images/stageyafundi${num}.jpg`} alt="Popular Product" width={300} height={0} />
               {/* <div className={styles.popularCardContent}>
                 <h3>Product {num}</h3>
                 <p>High-quality timber product crafted with precision</p>
