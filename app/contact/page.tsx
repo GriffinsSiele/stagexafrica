@@ -46,7 +46,7 @@ export default function Contact() {
             <div className={styles.contactCard}>
               <i className="fa-solid fa-phone" aria-hidden="true"></i>
               <h3>Phone</h3>
-              <p>+1 (555) 123-4567</p>
+              <p>+254 702 648 36</p>
               <p>Mon-Fri: 8AM-6PM</p>
             </div>
             
