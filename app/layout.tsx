@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <title>{metadata.title}</title>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           \"@context\": \"https://schema.org\",
-          \"@type\": \"FurnitureStore\",
+          \"@type\": \"Sawmill\",
           \"name\": \"StagexAfrica\",
           \"image\": \"https://stagexafrica.com/images/heroimg.jpg\",
           \"address\": {
@@ -51,7 +51,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             \"addressCountry\": \"KE\"
           },
           \"url\": \"https://stagexafrica.com\",
-          \"telephone\": \"+254 715 196 074\",
+          \"telephone\": \"+254 702 648 366\",
           \"description\": \"Sawmill and furniture shop in Kericho, Kenya. Premium timber and woodworking solutions.\"
         }` }} />
       </head>
