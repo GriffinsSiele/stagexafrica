@@ -83,9 +83,6 @@ export default function About() {
                   <a href="tel:0715196074" aria-label="Call Paul">
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
                   </a>
-                  <a href="mailto:paul@stagexafrica.com" aria-label="Email Paul">
-                    <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -99,22 +96,19 @@ export default function About() {
 
           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div className={styles.teamImage}>
-              <Image src="/images/cleophas-accountant.jpeg" alt="Cleophas Kibet" width={300} height={250} />
+              <Image src="/images/cleophas-accountant.jpeg" alt="Brian Aholo" width={300} height={250} />
               <div className={styles.teamOverlay}>
                 <div className={styles.socialLinks}>
-                  <a href="tel:0708611724" aria-label="Call Cleophas">
+                  <a href="tel:0708611724" aria-label="Call Brian">
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                  </a>
-                  <a href="mailto:cleophas@stagexafrica.com" aria-label="Email Cleophas">
-                    <i className="fa-solid fa-envelope" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
             </div>
             <div className={styles.teamInfo}>
-              <h3>Cleophas Kibet</h3>
+              <h3>Brian Aholo</h3>
               <p className={styles.role}>Accountant</p>
-              <p className={styles.bio}>Cleophas creates clear, intuitive designs that simplify financial processes, offering users a seamless and efficient experience.</p>
+              <p className={styles.bio}>Brian creates clear, intuitive designs that simplify financial processes, offering users a seamless and efficient experience.</p>
               <p className={styles.contact}>📞 0708611724</p>
             </div>
           </div>
@@ -126,9 +120,6 @@ export default function About() {
                 <div className={styles.socialLinks}>
                   <a href="tel:0757048899" aria-label="Call Josephine">
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                  </a>
-                  <a href="mailto:josephine@stagexafrica.com" aria-label="Email Josephine">
-                    <i className="fa-solid fa-envelope" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
@@ -148,9 +139,6 @@ export default function About() {
                 <div className={styles.socialLinks}>
                   <a href="tel:0741031713" aria-label="Call Victor">
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                  </a>
-                  <a href="mailto:victor@stagexafrica.com" aria-label="Email Victor">
-                    <i className="fa-solid fa-envelope" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
