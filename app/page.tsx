@@ -129,7 +129,7 @@ export default function Home() {
           </div>
           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000">
             <Image src="/images/cleophas-accountant.jpeg" alt="Team Member" width={120} height={120} />
-            <h3>Cleophas</h3>
+            <h3>Brian</h3>
             <p>Accountant</p>
           </div>
           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
