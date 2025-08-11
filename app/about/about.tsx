@@ -96,7 +96,7 @@ export default function About() {
 
           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div className={styles.teamImage}>
-              <Image src="/images/cleophas-accountant.jpeg" alt="Brian Aholo" width={300} height={250} />
+              <Image src="/images/brian-accountant.jpeg" alt="Brian Aholo" width={300} height={250} />
               <div className={styles.teamOverlay}>
                 <div className={styles.socialLinks}>
                   <a href="tel:0113622168" aria-label="Call Brian">
