@@ -99,7 +99,7 @@ export default function About() {
               <Image src="/images/cleophas-accountant.jpeg" alt="Brian Aholo" width={300} height={250} />
               <div className={styles.teamOverlay}>
                 <div className={styles.socialLinks}>
-                  <a href="tel:0708611724" aria-label="Call Brian">
+                  <a href="tel:0113622168" aria-label="Call Brian">
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -109,7 +109,7 @@ export default function About() {
               <h3>Brian Aholo</h3>
               <p className={styles.role}>Accountant</p>
               <p className={styles.bio}>Brian creates clear, intuitive designs that simplify financial processes, offering users a seamless and efficient experience.</p>
-              <p className={styles.contact}>📞 0708611724</p>
+              <p className={styles.contact}>📞 0113622168</p>
             </div>
           </div>
 
