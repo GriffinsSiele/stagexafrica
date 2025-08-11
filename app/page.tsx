@@ -117,20 +117,20 @@ export default function Home() {
       <section className={styles.team}>
         <h2>Our Team</h2>
         <div className={styles.teamGrid}>
-          <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000">
-            <Image src="/images/cleophas-accountant.jpeg" alt="Team Member" width={120} height={120} />
-            <h3>Cleophas</h3>
-            <p>Accountant</p>
+           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <Image src="/images/paul-manager.jpeg" alt="Team Member" width={120} height={120} />
+            <h3>Paul</h3>
+            <p>Manager</p>
           </div>
-          <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <Image src="/images/josphine-workshop-manager.jpeg" alt="Team Member" width={120} height={120} />
             <h3>Josephine</h3>
             <p>Workshop Manager</p>
           </div>
-          <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-            <Image src="/images/paul-manager.jpeg" alt="Team Member" width={120} height={120} />
-            <h3>Paul</h3>
-            <p>Manager</p>
+          <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000">
+            <Image src="/images/cleophas-accountant.jpeg" alt="Team Member" width={120} height={120} />
+            <h3>Cleophas</h3>
+            <p>Accountant</p>
           </div>
           <div className={styles.teamCard} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
             <Image src="/images/victor-marketing.jpeg" alt="Team Member" width={120} height={120} />
