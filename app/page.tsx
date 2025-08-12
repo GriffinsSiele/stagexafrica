@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* POPULAR PRODUCTS SECTION */}
+      {/* OUR GALLERY SECTION */}
       <section className={styles.popularProducts}>
         <h2>Our Gallery</h2>
         <div className={styles.popularGrid}>
