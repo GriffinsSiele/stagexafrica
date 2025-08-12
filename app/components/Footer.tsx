@@ -59,7 +59,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/profile.php?id=61570379308819" aria-label="Facebook" className={styles.socialLink}>
                 <i className="fa-brands fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="https://www.instagram.com/stageyafundi?igsh=OWd5OGMzMmU0ZGE3" aria-label="Instagram" className={styles.socialLink}>
+              <a href="https://www.instagram.com/stageyafundi_?igsh=bWZxNDlrNXd4a250" aria-label="Instagram" className={styles.socialLink}>
                 <i className="fa-brands fa-instagram" aria-hidden="true"></i>
               </a>
               <a href="https://vm.tiktok.com/ZMkQpGfSf/" aria-label="TikTok" className={styles.socialLink}>
