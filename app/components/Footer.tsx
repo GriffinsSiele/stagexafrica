@@ -77,6 +77,9 @@ export default function Footer() {
           <div className={styles.copyright}>
             <p>© 2025 StagexAfrica. All rights reserved.</p>
           </div>
+          <div className={styles.builtBy}>
+            <p>Built by <a href="https://griffinsngeno.vercel.app" target="_blank" rel="noopener noreferrer">Griffins Ngeno</a></p>
+          </div>
           <div className={styles.legalLinks}>
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>

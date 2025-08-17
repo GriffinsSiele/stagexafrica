@@ -212,6 +212,34 @@
   font-size: 0.85rem;
 }
 
+.builtBy p {
+  color: #F5DEB3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.builtBy a {
+  color: #DEB887;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(222, 184, 135, 0.1);
+  border: 1px solid rgba(222, 184, 135, 0.3);
+}
+
+.builtBy a:hover {
+  color: #F5DEB3;
+  background: rgba(222, 184, 135, 0.2);
+  border-color: rgba(222, 184, 135, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 .copyright a:hover {
   color: #F5DEB3;
