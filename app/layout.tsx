@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ReactNode } from "react";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   metadataBase: new URL("https://stagexafrica.com"),
@@ -71,6 +72,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main id="main-content" tabIndex={-1} aria-label="Main content">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
