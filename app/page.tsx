@@ -161,6 +161,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SEO: FAQ Schema for local intent */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: [
+            {
+              '@type': 'Question',
+              name: 'Where can I find a sawmill in Kericho?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'StagexAfrica operates a full-service sawmill in the Kericho area, providing sustainably sourced timber and milling services.'
+              }
+            },
+            {
+              '@type': 'Question',
+              name: 'Who makes custom furniture in Kericho?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'StagexAfrica designs and builds custom furniture in Kericho, including kitchen cabinets, bedroom furniture, and more.'
+              }
+            },
+            {
+              '@type': 'Question',
+              name: 'Where can I buy quality doors in Kericho?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'StagexAfrica crafts premium timber doors in Kericho and offers installation and finishing options.'
+              }
+            }
+          ]
+        }) }}
+      />
+
       <Footer />
     </div>
   );
