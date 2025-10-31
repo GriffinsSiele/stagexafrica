@@ -46,6 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:site_name" content={metadata.openGraph.siteName} />
+        <link rel="canonical" href="https://stagexafrica.com/" />
         <title>{metadata.title}</title>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           \"@context\": \"https://schema.org\",
